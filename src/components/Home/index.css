@@ -1,90 +1,71 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Roboto';
-}
-.home-bg-container {
-  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
-  background-size: cover;
-  background-position: center;
+.home-container {
   min-height: 100vh;
+  background-color: #ffffff;
 }
-.home-responsive-container {
-  padding: 1rem;
-  padding-top: 7rem;
-}
-.home-heading {
-  color: white;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  font-size: 2rem;
-}
-.home-para {
-  color: #f8fafc;
-  font-weight: 400;
-  font-size: 1rem;
-  opacity: 0.9;
-  margin-bottom: 2rem;
-  line-height: 1.5rem;
-}
-.find-jobs-btn {
-  position: relative;
-  display: block;
-  padding: 0.7em 1.3em;
-  background-color: #b6c5ff;
-  font-weight: 500;
-  border: none;
-  outline: none;
-  border-radius: 0 15px;
-  color: #4f46e5;
-  transition: all 0.5s ease-in-out;
-  z-index: 1;
-  overflow: hidden;
-}
-.find-jobs-btn:hover {
-  border-radius: 15px 0;
-  color: #f8fafc;
-}
-.find-jobs-btn::after {
-  position: absolute;
-  content: '';
-  inset: 0;
-  pointer-events: none;
-  transform: scaleX(0);
-  transition: transform 0.3s ease-in-out;
-  background-color: #6366f1;
-  transform-origin: right;
-  z-index: -1;
-}
-.find-jobs-btn:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+.nav-container {
+  width: 100vw;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #c0d7fc;
+  margin-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-  .home-bg-container {
-    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
-  }
-  .home-responsive-container {
-    padding: 4rem;
-    padding-top: 9rem;
-    width: 70%;
-  }
-  .home-heading {
-    color: white;
-    margin-top: 1.5rem;
-    margin-bottom: 4rem;
-    font-size: 3rem;
-  }
-  .home-para {
-    color: #f8fafc;
-    font-weight: 300;
-    font-size: 1.3rem;
-    margin-bottom: 3rem;
-    line-height: 2.5rem;
-  }
+.logo-image {
+  width: 125px;
 }
-.nav-links {
-  display: inline-block;
+
+.partition-container {
+  display: flex;
+  width: 100vw;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.image-ash {
+  width: 300px;
+  height: 500px;
+}
+
+.left-section {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.poke-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  width: 200px;
+}
+
+.btn {
+  background-color: #3b86ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }

@@ -1,0 +1,106 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to left, #aafaf2, #96faf0, #75faed);
+}
+
+.sucess-container {
+  width: 85%;
+  display: flex;
+}
+
+.image-section {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-details {
+  width: 300px;
+  height: 300px;
+}
+
+.info-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading-section {
+  background-color: #e5a0f2;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+  margin-bottom: 8px;
+}
+
+.para-id {
+  font-family: 'Roboto';
+  font-size: 30px;
+  margin: 8px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.ability-container {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  justify-content: center;
+}
+
+.para-abilities {
+  background-color: #4f77f0;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  margin: 8px;
+}
+
+.poke-apperance {
+  background-color: #698dfa;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 8px;
+  width: 80%;
+}
+
+.para-table {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  margin: 8px;
+}
+
+.line {
+  border: 1px solid #ffffff;
+  width: 100%;
+}
+
+.btn-back {
+  font-family: 'Roboto';
+  background-color: #076978;
+  font-size: 20px;
+  color: #ffffff;
+  margin: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+.details-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

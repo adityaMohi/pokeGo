@@ -1,0 +1,26 @@
+.pokemon-item {
+  list-style-type: none;
+  margin: 15px;
+  width: 180px;
+  border: none;
+  background-color: #4aeaed;
+  border-radius: 8px;
+}
+
+.link-style {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.para {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #026375;
+}
+
+.list-image {
+  width: 45px;
+  height: 45px;
+}
